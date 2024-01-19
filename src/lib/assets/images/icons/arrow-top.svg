@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+
+<svg
+   fill="#a4c3b2"
+   width="800px"
+   height="800px"
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="svg2693"
+   sodipodi:docname="arrow-top.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2697" />
+  <sodipodi:namedview
+     id="namedview2695"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.2525"
+     inkscape:cx="400.3992"
+     inkscape:cy="400"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2693" />
+  <g
+     id="SVGRepo_bgCarrier"
+     stroke-width="0" />
+  <g
+     id="SVGRepo_tracerCarrier"
+     stroke-linecap="round"
+     stroke-linejoin="round" />
+  <g
+     id="SVGRepo_iconCarrier">
+    <path
+       d="M17.504 26.025l.001-14.287 6.366 6.367L26 15.979 15.997 5.975 6 15.971 8.129 18.1l6.366-6.368v14.291z"
+       id="path2690" />
+  </g>
+  <path
+     style="fill:#ccd5ae;stroke-width:0.798403"
+     d="m 362.87425,471.45709 c 0,-98.14372 -0.21997,-178.44312 -0.48884,-178.44312 -0.26886,0 -36.08042,35.7746 -79.58124,79.4991 l -79.0924,79.4991 -26.40555,-26.40556 -26.40556,-26.40556 124.54871,-124.55062 124.54871,-124.55064 124.75119,124.74928 124.75119,124.74927 -26.34704,26.34703 -26.34703,26.34705 -79.84032,-79.83733 -79.84032,-79.83733 V 471.25899 649.9002 H 400 362.87425 Z"
+     id="path3179"
+     transform="scale(0.04)" />
+</svg>

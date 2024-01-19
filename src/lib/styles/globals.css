@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* html{
+    background-image: url("/background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+} */
+
+@media (min-width: 768px) {
+	::-webkit-scrollbar {
+		width: 9px;
+		height: 9px;
+	}
+
+	::-webkit-scrollbar-track {
+		background: #f1f1f1;
+		-webkit-box-shadow: inset 0 0 3px #CCD5AE;
+		box-shadow: inset 0 0 3px #CCD5AE;
+		border-radius: 15px;
+	}
+
+	::-webkit-scrollbar-thumb {
+		border-radius: 15px;
+		background: #cce3de;
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+		background: #cce3de;
+	}
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+	box-shadow: 0 0 0 30px #CCD5AE inset !important;
+	-webkit-box-shadow: 0 0 0 30px #CCD5AE inset !important;
+}
+
+.themeBoxShadow {
+	box-shadow: 0 0 0 30px #CCD5AE inset !important;
+	-webkit-box-shadow: 0 0 0 30px #CCD5AE inset !important;
+	color: black;
+}
+
+.MainTextColor {
+	font-weight: bold;
+	background: -webkit-linear-gradient(360deg, #CCD5AE, #D4A373);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.MainTextColor-reverse {
+	font-weight: bold;
+	background: -webkit-linear-gradient(360deg, #CCD5AE, #FEFAE0);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
