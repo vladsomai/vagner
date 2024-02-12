@@ -1,0 +1,58 @@
+[
+	{
+		"Avatar": "https://xx.bstatic.com/static/img/review/avatars/ava-b.png",
+		"Grade": 10,
+		"Author": "Bernhard",
+		"CountryFlag": "https://t-cf.bstatic.com/design-assets/assets/v3.109.0/images-flags/De.png",
+		"CountryName": "Deutschland",
+		"Description": "Sehr freundliche Vermieter, alles blitzblank sauber, gute Ausgangslage für Erkundungen in Niederösterreich, sehr gute Ausstattung. Klare Empfehlung!"
+	},
+	{
+		"Avatar": "https://cf.bstatic.com/static/img/review/avatars/ava-j.png",
+		"Grade": 10,
+		"Author": "Johannes",
+		"CountryFlag": "https://t-cf.bstatic.com/design-assets/assets/v3.109.0/images-flags/De.png",
+		"CountryName": "Deutschland",
+		"Description": "Super Ferienhaus, sehr sympathische_r Gastgeber_in, alles perfekt."
+	},
+	{
+		"Avatar": "https://xx.bstatic.com/static/img/review/avatars/ava-c.png",
+		"Grade": 10,
+		"Author": "Carolin",
+		"CountryFlag": "https://t-cf.bstatic.com/design-assets/assets/v3.109.0/images-flags/De.png",
+		"CountryName": "Deutschland",
+		"Description": "Familie Vagner ist sehr nett, hilfsbereit und herzlich. Das Haus ist einfach noch viel schöner wie beschrieben. Es wurde mit viel Liebe eingerichtet."
+	},
+	{
+		"Avatar": "https://xx.bstatic.com/static/img/review/avatars/ava-h.png",
+		"Grade": 10,
+		"Author": "Harald",
+		"CountryFlag": "https://t-cf.bstatic.com/design-assets/assets/v3.109.0/images-flags/At.png",
+		"CountryName": "Österreich",
+		"Description": "Die Ruhe, ein ganzes Haus zu zweit :-) und natürlich die netten Vermieter !"
+	},
+	{
+		"Avatar": "https://xx.bstatic.com/static/img/review/avatars/ava-g.png",
+		"Grade": 10,
+		"Author": "Günter",
+		"CountryFlag": "https://t-cf.bstatic.com/design-assets/assets/v3.109.0/images-flags/De.png",
+		"CountryName": "Deutschland",
+		"Description": "Wunderbare Ferienwohnung. Alles da was man braucht."
+	},
+	{
+		"Avatar": "https://xx.bstatic.com/static/img/review/avatars/ava-a.png",
+		"Grade": 10,
+		"Author": "Arnulf",
+		"CountryName": "Deutschland",
+		"CountryFlag": "https://t-cf.bstatic.com/design-assets/assets/v3.109.0/images-flags/De.png",
+		"Description": "Sehr nette, entgegenkommende und aufmerksame Gastgeber in einem modernen und doch gemütlichen Ferienhaus."
+	},
+	{
+		"Avatar": "https://cf.bstatic.com/static/img/review/avatars/ava-m.png",
+		"Grade": 10,
+		"CountryName": "Österreich",
+		"Author": "Margareta",
+		"CountryFlag": "https://t-cf.bstatic.com/design-assets/assets/v3.109.0/images-flags/At.png",
+		"Description": "Sehr sauber mit Garten. In jedem Zimmer ein Fernseher. Free WLAN. Küche sehr gut ausgestattet. Kaffeemaschine, Mikrowelle, Backrohr…"
+	}
+]

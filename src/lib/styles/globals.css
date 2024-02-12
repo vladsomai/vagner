@@ -2,12 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* html{
-    background-image: url("/background.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-} */
+html{
+    font-family: 'Montserrat', sans-serif;
+}
 
 @media (min-width: 768px) {
 	::-webkit-scrollbar {
@@ -24,11 +21,11 @@
 
 	::-webkit-scrollbar-thumb {
 		border-radius: 15px;
-		background: #cce3de;
+		background: #CCD5AE;
 	}
 
 	::-webkit-scrollbar-thumb:hover {
-		background: #cce3de;
+		background: #CCD5AE;
 	}
 }
 
@@ -48,7 +45,7 @@ input:-webkit-autofill:active {
 
 .MainTextColor {
 	font-weight: bold;
-	background: -webkit-linear-gradient(360deg, #CCD5AE, #D4A373);
+	background: -webkit-linear-gradient(360deg, #8fbb00, #E9EDC9);
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
