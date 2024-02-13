@@ -1,25 +1,27 @@
 <script lang="ts">
 	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
 	import '@splidejs/svelte-splide/css';
-	let pictures: string[] = [];
+	import { onMount } from 'svelte';
 
-	const picturesImport = import.meta.glob('$lib/assets/images/carousel/*.jpg', {
-		query: {
-			enhanced: true
+	let mounted = false;
+
+    let images: string[] = [];
+	onMount(async () => {
+		const imagePaths = Object.keys(import.meta.glob('/static/carousel/*.jpg', { eager: true }));
+		for (const imgPath of imagePaths) {
+			const indexOfSecondSlash = imgPath.indexOf('/', 2);
+			const temp = imgPath.slice(indexOfSecondSlash, imgPath.length);
+			images = [temp, ...images];
 		}
+		mounted = true;
 	});
-	let tempPic: string[] = [];
-	for (const pic in picturesImport) {
-		tempPic = [pic, ...tempPic];
-	}
-	pictures = [...tempPic];
 
 	const options = {
 		rewind: true,
 		perPage: 1,
 		width: 'auto',
 		height: 'auto',
-		autoplay: true,
+		autoplay: true
 	};
 
 	let innerWidth = 0;
@@ -37,14 +39,16 @@
 
 <svelte:window bind:innerWidth />
 
-<Splide
-	aria-label="Ferienhaus Vagner Bilder"
-	{options}
-	class="flex justify-center items-center max-w-[90vw]"
->
-	{#each pictures as pic}
-		<SplideSlide>
-			<img class="rounded-lg h-[80vh] w-auto m-auto" src={pic} alt="ferienhaus vagner bild" />
-		</SplideSlide>
-	{/each}
-</Splide>
+{#if mounted}
+	<Splide
+		aria-label="Ferienhaus Vagner Bilder"
+		{options}
+		class="flex justify-center items-center max-w-[90vw]"
+	>
+		{#each images as pic}
+			<SplideSlide>
+				<img class="rounded-lg h-[80vh] w-auto m-auto" src={pic} alt="Ferienhaus Vagner" />
+			</SplideSlide>
+		{/each}
+	</Splide>
+{/if}

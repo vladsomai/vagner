@@ -1698,6 +1698,10 @@ html {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.static {
+  position: static;
+}
+
 .fixed {
   position: fixed;
 }
@@ -1738,6 +1742,10 @@ html {
   top: 0px;
 }
 
+.top-5 {
+  top: 1.25rem;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -1776,11 +1784,6 @@ html {
   margin-right: 10%;
 }
 
-.mx-\[0px\] {
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
 .mx-\[3px\] {
   margin-left: 3px;
   margin-right: 3px;
@@ -1794,8 +1797,12 @@ html {
   margin-bottom: 5rem;
 }
 
-.mb-32 {
-  margin-bottom: 8rem;
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-80 {
+  margin-bottom: 20rem;
 }
 
 .mb-\[10\%\] {
@@ -1846,32 +1853,8 @@ html {
   margin-top: 10vh;
 }
 
-.mt-\[15\%\] {
-  margin-top: 15%;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.mb-48 {
-  margin-bottom: 12rem;
-}
-
-.mt-\[35\%\] {
-  margin-top: 35%;
-}
-
 .mt-\[45\%\] {
   margin-top: 45%;
-}
-
-.mb-60 {
-  margin-bottom: 15rem;
-}
-
-.mb-80 {
-  margin-bottom: 20rem;
 }
 
 .flex {
@@ -1896,6 +1879,10 @@ html {
 
 .h-\[20px\] {
   height: 20px;
+}
+
+.h-\[30px\] {
+  height: 30px;
 }
 
 .h-\[350px\] {
@@ -1942,8 +1929,8 @@ html {
   height: 100vh;
 }
 
-.h-\[30px\] {
-  height: 30px;
+.h-\[500px\] {
+  height: 500px;
 }
 
 .min-h-full {
@@ -2190,6 +2177,11 @@ html {
 
 .opacity-80 {
   opacity: 0.8;
+}
+
+.blur-xl {
+  --tw-blur: blur(24px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .transition {

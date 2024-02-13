@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { ITestimonial } from '$lib/types/types';
 	export let testimonial: ITestimonial;
-	import starImg from '$lib/assets/images/banner/start.png';
+	import starImg from '$lib/assets/images/banner/stars.png';
 </script>
 
 <div class="h-[400px] bg-transparent p-5 rounded-lg w-[300px] text-wrap relative mb-10">

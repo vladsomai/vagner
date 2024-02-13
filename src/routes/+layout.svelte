@@ -7,6 +7,7 @@
 	let scrollTopBtn: HTMLButtonElement | null = null;
 	import { page } from '$app/stores';
 	import { fly } from 'svelte/transition';
+    // import MainImg from '$lib/assets/images/banner/main2.jpg'
 
 	let scrollY = 0;
 	let scrollTopBtnIsHidden = true;
@@ -51,14 +52,14 @@
 {#if $page.route.id == '/'}
 	<div
 		class="absolute left-[-9px] top-0 h-screen w-screen p- m-0 p-0 -z-10 bg-no-repeat bg-cover bg-center"
-		style="background-image: url('/main.jpg');"
+		style="background-image: url('/main.webp');"
 		in:fly={{ duration: 1000 }}
 	></div>
 {/if}
 
 <div
-	class="fixed h-screen -z-20 w-screen opacity-80 bg-no-repeat bg-cover bg-center"
-	style="background-image: url('/background-testimonials.svg');"
+	class="fixed h-screen -z-20 w-screen opacity-80 bg-no-repeat bg-cover bg-center blur-xl "
+	style="background-image: url('/background.svg');"
 ></div>
 
 <Navbar>

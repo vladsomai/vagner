@@ -4,7 +4,6 @@
 	import testimonialsImport from '$lib/assets/testimonials.json';
 	import type { ITestimonial } from '$lib/types/types';
 	import TestimonialCard from './TestimonialCard.svelte';
-	import { fly } from 'svelte/transition';
 	const testimonials: ITestimonial[] = testimonialsImport;
 
 	const options = {

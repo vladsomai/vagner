@@ -34,7 +34,7 @@
 	in:fly={{ duration: 1000 }}
 >
 	{#if pageMount}
-		<div class="flex justify-center items-center" in:fly={{ duration: 2000, y: -50 }} transi>
+		<div class="flex justify-center items-center" in:fly={{ duration: 2000, y: -50 }}>
 			<img class=" w-auto h-[50px] md:h-[100px] mr-2" src={LogoIcon} alt="Das Zuhause, Home" />
 			<h1 class="text-2xl md:text-6xl MainTextColor text-center">Ferienhaus Vagner</h1>
 		</div>
@@ -137,9 +137,9 @@
 		</div>
 	</div>
 	<div
-		class="flex flex-col items-center justify-center"
+		class="flex flex-col items-center justify-center relative top-5"
 		class:fade-out={!GoogleMapsVisible}
-		class:fade-in-left-d1000={GoogleMapsVisible}
+		class:fade-in-top-d1000={GoogleMapsVisible}
 		use:viewport
 		on:enterViewport={() => {
 			GoogleMapsVisible = true;
@@ -166,6 +166,12 @@
 	.fade-in-left-d1000 {
 		transition: all 1s ease-in-out 0.2s;
 		left: 0px;
+		opacity: 1;
+	}
+
+	.fade-in-top-d1000 {
+		transition: all 1s ease-in-out 0.2s;
+		top: 0px;
 		opacity: 1;
 	}
 

@@ -6,6 +6,7 @@
 	export let imageLeft: boolean;
 	export let xOffsetImage: number;
 	export let xOffsetText: number;
+    export let animationDuration:number = 3000
 </script>
 
 <div
@@ -16,12 +17,12 @@
 	<img
 		src={image}
 		class="h-[350px] w-auto mr-4 rounded-2xl mb-5 md:mb-0 m-auto"
-		alt="Telefonnummer, phone number"
-		in:fly={{ duration: 3000, x: xOffsetImage }}
+		alt="Ferienhaus Vagner"
+		in:fly={{ duration: animationDuration, x: xOffsetImage }}
 	/>
 	<p
 		class="flex justify-center items-center h-full text-justify mx-10"
-		in:fly={{ duration: 3000, x: xOffsetText }}
+		in:fly={{ duration: animationDuration, x: xOffsetText }}
 	>
 		{text}
 	</p>
