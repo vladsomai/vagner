@@ -36,9 +36,9 @@
 	{#if pageMount}
 		<div class="flex justify-center items-center" in:fly={{ duration: 2000, y: -50 }}>
 			<img class=" w-auto h-[50px] md:h-[100px] mr-2" src={LogoIcon} alt="Das Zuhause, Home" />
-			<h1 class="text-2xl md:text-6xl MainTextColor text-center">Ferienhaus Vagner</h1>
+			<h1 class="text-2xl  md:text-6xl MainTextColor text-center">Ferienhaus Vagner</h1>
 		</div>
-		<h1 class="text-4xl text-center text-white" in:fly={{ duration: 2000, y: -70 }}>
+		<h1 class="text-xl md:text-4xl text-center text-white" in:fly={{ duration: 2000, y: -70 }}>
 			Finden Sie Ruhe in der Natur.
 		</h1>
 

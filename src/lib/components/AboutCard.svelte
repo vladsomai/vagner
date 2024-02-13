@@ -21,7 +21,7 @@
 		in:fly={{ duration: animationDuration, x: xOffsetImage }}
 	/>
 	<p
-		class="flex justify-center items-center h-full text-justify mx-10"
+		class="flex justify-center items-center h-full mx-10 text-lg md:text-xl"
 		in:fly={{ duration: animationDuration, x: xOffsetText }}
 	>
 		{text}
