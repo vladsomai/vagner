@@ -28,7 +28,7 @@
 			imageLeft={false}
 			image={NatureImg}
 			animationDuration={2000}
-			text={'Nature'}
+			text={'Natur'}
 		/>
 		<FacilityCard
 			xOffsetImage={-100}
@@ -44,7 +44,7 @@
 			imageLeft={false}
 			image={Wifi}
 			animationDuration={2000}
-			text={'Free Wi-Fi'}
+			text={'Wi-Fi'}
 		/>
 		<FacilityCard
 			xOffsetImage={-100}
