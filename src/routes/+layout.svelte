@@ -51,7 +51,7 @@
 {/if}
 {#if $page.route.id == '/'}
 	<div
-		class="absolute left-[-9px] top-0 h-screen w-screen p- m-0 p-0 -z-10 bg-no-repeat bg-cover bg-center"
+		class="absolute top-0 h-screen w-full m-0 p-0 -z-10 bg-no-repeat bg-cover bg-center"
 		style="background-image: url('/main.webp');"
 		in:fly={{ duration: 1000 }}
 	></div>

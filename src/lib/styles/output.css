@@ -1722,10 +1722,6 @@ html {
   left: 1.25rem;
 }
 
-.left-\[-9px\] {
-  left: -9px;
-}
-
 .right-10 {
   right: 2.5rem;
 }
@@ -2121,9 +2117,9 @@ html {
   line-height: 2.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-\[10px\] {
@@ -2138,11 +2134,6 @@ html {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .font-bold {
@@ -2334,6 +2325,11 @@ input:-webkit-autofill:active {
     line-height: 2rem;
   }
 
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
@@ -2348,11 +2344,6 @@ input:-webkit-autofill:active {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
-
-  .md\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -2362,14 +2353,6 @@ input:-webkit-autofill:active {
 
   .lg\:hidden {
     display: none;
-  }
-
-  .lg\:flex-row {
-    flex-direction: row;
-  }
-
-  .lg\:flex-row-reverse {
-    flex-direction: row-reverse;
   }
 }
 
